@@ -5,12 +5,30 @@
     padding: 0;
     margin: 0;
 }
-.box {
-    background: rgb(18,137,144);
-    background: linear-gradient(225deg, rgba(18,137,144,1) 26%, rgba(9,9,121,1) 51%, rgba(21,140,18,1) 75%, rgba(22,154,7,1) 87%, rgba(0,212,255,1) 96%);
-    clip-path: polygon(51% 8%, 98% 3%, 98% 35%, 98% 70%, 94% 93%, 50% 100%, 4% 94%, 3% 69%, 3% 35%, 4% 2%);
+a {
+    text-decoration: none;
+}
+body{
+    background: url(../img/2.png);
+    clip-path: polygon(0 0, 100% 0, 100% 73%, 0 90%);
     height: 100vh;
     width: auto;
+}
+header{
+    width: 100%;
+}
+header .menu ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    background: #ffffff40
+}
+header .menu ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 18px;
+    font-style: bold;
 }
 #inputForm {
     display: block;

@@ -5,11 +5,6 @@
 const swap = (arry, i, j) => {
     [arry[i], arry[j]] = [arry[j], arry[i]];
 }
-/**
- * ////////////////
- * quick sort
- * ///////////////
- */
 
 /**
  * Pivot helper function 
@@ -39,21 +34,7 @@ function quicksort(arr, left = 0, right = arr.length -1) {
     return arr;
 }
 
-/**
- * --------------------------------------------
- * 
- *       - - - - - - - - - - - - - - -
- *        -                         -
- *       -                           -
- *        -                         -
- *          -                     - 
- *             -               -
- *                -         -
- *                  -  -  -
- *                     _
- * 
- * ----------------------------------------------
- */
+
 /**
  * //////////////////////////////////////
  * ///////// Merge Sort  ///////////////
@@ -61,7 +42,9 @@ function quicksort(arr, left = 0, right = arr.length -1) {
  * 
  *  */
 
-//  merge 
+/**
+ *  merge function  
+ */ 
 
 const merge = (arr1, arr2) => {
     let res = [];

@@ -26,7 +26,13 @@ sortBtn.addEventListener("click",()=>{
         al.style.opacity = "1"
         algo = "Bubble Sort";
         bubbleSort(arr);
-    } else {
+    }
+    else if (algorithms.value == "insertion"){
+        al.style.opacity = "1";
+        algo = "Insertion sort";
+        insertionSort(arr);
+    }
+    else {
         algo = "Please select any algorithms"
         console.log(algo);
     }
